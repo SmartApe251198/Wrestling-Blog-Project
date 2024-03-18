@@ -1,0 +1,109 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('cool2.webp');
+  background-size: cover; /* Scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-attachment: fixed; /* Fixes the background in place */
+  color: #fff; /* Text color */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'MV Boli';
+  color: #EEEEEE;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Add letter spacing */
+}
+
+/* Style subheadings */
+h2 {
+  font-family: 'MV Boli';
+  text-align: center;
+  font-size: 26px;
+  color: #EEEEEE; 
+  margin: 20px 0 10px;
+  text-transform: capitalize;
+}
+
+/* Add some padding and a border to paragraphs */
+p {
+  font-size: 20px;
+  font-style:italic;
+  text-align: center;
+  color: #CF0A0A;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Center the "Thank You For Reading!" text */
+h3 {
+  text-align: center;
+  color: #EEEEEE;
+  margin: 20px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Style links */
+a {
+  color: #E67E22; /* Orange link color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+/* Style images with hover effect */
+img {
+  width: 600px;
+  height: 350px;
+  border: 4px solid #CF0A0A;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* Style the site tagline */
+h4 {
+  text-align: left;
+  color: #CF0A0A;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+}
+
+.social-media-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media-links img:hover {
+    transform: scale(1.1);
+}

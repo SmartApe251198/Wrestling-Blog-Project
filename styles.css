@@ -54,9 +54,9 @@ a:hover {
   text-decoration: underline;
 }
 img {
-  width: 350px;
+  width: 400px;
   height: 335px;
-  border: 6px solid #C6AD8F;
+  border: 5px solid #C6AD8F;
   transition: transform 0.3s ease-in-out;
 }
 
